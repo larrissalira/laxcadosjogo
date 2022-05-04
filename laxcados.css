@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex:wght@700&family=Keania+One&display=swap');
+
+
+*{
+    inset: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Caudex', serif, 'Keania One', 'cursive';
+}
+
+body {
+    background-color: black;
+    font-family:'Caudex', serif;
+    color: #FFFFFF;
+}
+
+#titulo {
+
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+text-align: center;
+color: #FFFFFF;
+
+}
+
+.container {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+width: 100vw;
+height: 500px;
+}
+
+.texto1 {
+width: 60%;
+height: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 2px solid #FFFFFF;
+border-radius: 13px;
+
+}
+.texto1 p  {
+
+width: 600px;
+text-align: center;
+
+}
+
+.personagem {
+    display: flex;
+
+}
+
+.alinhamentoPersonagem {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    margin: 5px;
+    width: 350px;
+    height: 140px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+#natalia, #adalberto, #geovanni {
+    height:auto;
+    
+}
+.container-botao {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.botao {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.botao:hover {
+    background-color: #737373;
+}
+.botao2{
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.botao3 {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 7px;
+    cursor: pointer;
+}
