@@ -41,7 +41,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 border: 2px solid #FFFFFF;
-border-radius: 13px;
+border-radius: 16px;
 
 }
 .texto1 p  {
@@ -76,13 +76,19 @@ text-align: center;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    text-align: center;
+    margin: 5px;
+    padding: 8px;
+    margin-left: 55px;
+    margin-right: 20px;
     
 }
 .botao {
     padding: 10px;
     border: 1px solid white;
-    border-radius: 7px;
+    border-radius: 9px;
     cursor: pointer;
+    margin-left: 45px;
 }
 .botao:hover {
     background-color: #737373;
@@ -93,9 +99,27 @@ text-align: center;
     border-radius: 7px;
     cursor: pointer;
 }
+.botao2:hover {
+    background-color: #737373;
+}
+
 .botao3 {
     padding: 10px;
     border: 1px solid white;
     border-radius: 7px;
     cursor: pointer;
+    margin-right: 80px;
+    margin-left: 20px;
+}
+
+.botao3:hover {
+    background-color: #737373;
+}
+
+.direitos {
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    margin-right: 200px;
+    margin-left: 100px;
 }
