@@ -24,7 +24,7 @@ body {
     padding: 0;
     margin-top: 0;
     margin-block-end: 0;
-    margin-left: 450px;
+    margin-left: 463px;
     width: 440px ;
     height: 100px;
 }
@@ -35,26 +35,14 @@ body {
 }
 
 #titulo {
-    margin-left:auto;
-    margin-right:auto;
-    text-align:center;
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between;
     margin-top: 150px;
-    font-size: 40px;
+    font-size: 34px;
     color: #ffffff;
 }
 
 #titulo:hover {
     font-size: 300%;
     transition: 0,9s;
-}
-
-.SE, .L, .A, .X, .C, .O, .U, .ponto {
-    transition: 0,9s;
-    color: rgb(102, 102, 102);
-
 }
 
 .container {

@@ -24,7 +24,7 @@ body {
     padding: 0;
     margin-top: 0;
     margin-block-end: 0;
-    margin-left: 450px;
+    margin-left: 463px;
     width: 440px ;
     height: 100px;
 }
@@ -34,27 +34,19 @@ body {
     transition: 0,7s;
 }
 
-#titulo {
-    margin-left:auto;
-    margin-right:auto;
-    text-align:center;
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between;
-    margin-top: 150px;
-    font-size: 40px;
+.titulo {
+    margin-top: 50px;
+    margin-left: 385px;
+    margin-right: 260px;
+    margin-bottom: 20px;
+    font-size: 34px;
     color: #ffffff;
 }
 
-#titulo:hover {
-    font-size: 300%;
-    transition: 0,9s;
-}
-
-.SE, .L, .A, .X, .C, .O, .U, .ponto {
+.titulo:hover {
+    transform: perspective(0,8);
     transition: 0,9s;
     color: rgb(102, 102, 102);
-
 }
 
 .container {
@@ -84,6 +76,7 @@ body {
 .voltarInicio {
     background-color: black;
     font-family:"Poppins",sans-serif;
+    margin-top: 150px;
     padding: 5px;
     height: 50px;
     width: 105px;
