@@ -1,3 +1,3 @@
 function start(){
-    location="./personagens.html"
+    location="."
   }
