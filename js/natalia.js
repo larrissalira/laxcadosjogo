@@ -6,7 +6,7 @@ escolhaNatalia.addEventListener('click', function (nataliaPrimeira) {
         nataliaPrimeira = prompt("Essa resposta é inválida, escolha entre os números 1 ou 2")
     } if (nataliaPrimeira == 2) {
         alert("Natália chega na hora no trabalho e realiza todas as atividades do dia. \nA reunião que ela perdeu era sobre o desempenho do filho na escola, \ne como ela não soube disso ele acabou repetindo de ano, e se Laxcou!")
-        return location = "./gameover.html"
+        return location = "../html/perdeu.html"
     } else {
         nataliaDois()
     }
@@ -18,7 +18,7 @@ function nataliaDois(nataliaSegunda) {
         nataliaSegunda = prompt("Essa resposta é inválida, escolha entre os números 1 ou 2")
     } if (nataliaSegunda == 2) {
         alert("Natália tenta conversar com o chefe, e diz que isso não é possível, \npois ela tem o filho, o curso e muitas responsabilidades. \nNatalia argumentou bem e conseguiu negociar com o chefe, \nmas terá que trabalhar neste sábado, \nno dia do aniversário de seu filho.. e se Laxcou!")
-        return location = "./gameover.html"
+        return location = "../html/perdeu.html"
     } else {
         nataliaTres()
     }
@@ -30,9 +30,9 @@ function nataliaTres(nataliaTerceira) {
         nataliaTerceira = prompt("Essa resposta é inválida, escolha entre os números 1 ou 2")
     } if (nataliaTerceira == 1) {
         alert("Natália encontra o filho sozinho e chorando na coordenação \ne decide passear com ele, perdendo a apresentação no curso, e se Laxcando!")
-        return location = "./gameover.html"
+        return location = "../html/perdeu.html"
     } if (nataliaTerceira == 2) {
         alert("Natália pede para a amiga buscar o filho na escola e corre para o curso. \nNatalia consegue fazer a apresentação no curso com sucesso e foi convidada para participar de um processo seletivo, \nchegando em casa pediu uma pizza para comemorar com o filho")
-        return location = "./venceu.html"
+        return location = "../html.ganhou.html"
     }
 }
