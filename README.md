@@ -5,8 +5,7 @@
 
 <h3>Sobre o LAXCADOS:</h3>
 
-<p> O jogo foi criado com a finalidade de representar a todas as pessoas que enfrentam seus dilemas no dia a dia, 
-  é um jogo que mostra a vivência de cada um.</p> 
+<p> O jogo foi criado com a finalidade de representar a todas as pessoas que enfrentam seus dilemas no dia a dia, é um jogo que mostra a vivência de cada um.</p> 
 
 <h2> ⚙ Ferramentas Utilizadas:</h2>
 
