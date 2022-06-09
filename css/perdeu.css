@@ -34,15 +34,19 @@ body {
     transition: 0,7s;
 }
 
-#titulo {
-    margin-top: 150px;
+.titulo {
+    margin-top: 50px;
+    margin-left: 510px;
+    margin-right: 240px;
+    margin-bottom: 20px;
     font-size: 34px;
     color: #ffffff;
 }
 
-#titulo:hover {
-    font-size: 300%;
+.titulo:hover {
+    transform: perspective(0,8);
     transition: 0,9s;
+    color: rgb(102, 102, 102);
 }
 
 .container {
@@ -72,6 +76,7 @@ body {
 .voltarInicio {
     background-color: black;
     font-family:"Poppins",sans-serif;
+    margin-top: 150px;
     padding: 5px;
     height: 50px;
     width: 105px;
