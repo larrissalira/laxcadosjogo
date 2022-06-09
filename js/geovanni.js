@@ -19,7 +19,7 @@ function geovanniDois(geovanniSegunda) {
     while (geovanniSegunda != 1 && geovanniSegunda != 2) {
         geovanniSegunda = prompt("Essa resposta é inválida, \nescolha entre os números 1 ou 2")
     } if (geovanniSegunda == 2) {
-        alert("Geovanni deixa o carro numa calçada e vai pro date de ônibus. \nO Carro é rebocado pela prefeitura e Geovanni precisa pagar uma multa de R$500, \nmas ele gastou R$200 no date e agora se Laxcou!")
+        alert("Geovanni deixa o carro numa calçada e vai pro date de ônibus. \nO Carro é rebocado pela prefeitura e Geovanni precisa pagar uma multa de R$500, \nmas ele gastou R$200 no date e agora \Nse LAXCOU!")
         return location = "../html/perdeu.html"
     } else {
         geovanniTres()
@@ -34,7 +34,7 @@ function geovanniTres(geovanniSegunda) {
         alert("Ele liga para a pessoa do date, explica tudo que aconteceu e a convida para assistir uma série em casa. \nA pessoa aceitou o convite, Geovanni conseguiu o date e ainda economizou uma graninha.")
         return location = "../html/ganhou.html"
     } if (geovanniSegunda == 2) {
-        alert("Ele pede cerveja pelo aplicativo e assiste videos de lock picking até dormir. \nQuando acorda, Geovanni vê que gastou R$200 em cerveja e ficou sem nenhum tostão. Se Laxcou!")
+        alert("Ele pede cerveja pelo aplicativo e assiste videos de lock picking até dormir. \nQuando acorda, Geovanni vê que gastou R$200 em cerveja e ficou sem nenhum tostão. \NSe LAXCOU!")
         return location = "../html/perdeu.html"
     }
 }
