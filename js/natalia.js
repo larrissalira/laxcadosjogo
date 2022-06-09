@@ -17,7 +17,7 @@ function nataliaDois(nataliaSegunda) {
     while (nataliaSegunda != 1 && nataliaSegunda != 2) {
         nataliaSegunda = prompt("Essa resposta é inválida, escolha entre os números 1 ou 2")
     } if (nataliaSegunda == 2) {
-        alert("Natália tenta conversar com o chefe, e diz que isso não é possível, \npois ela tem o filho, o curso e muitas responsabilidades. \nNatalia argumentou bem e conseguiu negociar com o chefe, \nmas terá que trabalhar neste sábado, \nno dia do aniversário de seu filho.. \Ne se LAXCOU!")
+        alert("Natália tenta conversar com o chefe, e diz que isso não é possível, \npois ela tem o filho, o curso e muitas responsabilidades. \nNatalia argumentou bem e conseguiu negociar com o chefe, \nmas terá que trabalhar neste sábado, \nno dia do aniversário de seu filho.. \ne se LAXCOU!")
         return location = "../html/perdeu.html"
     } else {
         nataliaTres()
@@ -33,6 +33,6 @@ function nataliaTres(nataliaTerceira) {
         return location = "../html/perdeu.html"
     } if (nataliaTerceira == 2) {
         alert("Natália pede para a amiga buscar o filho na escola e corre para o curso. \nNatalia consegue fazer a apresentação no curso com sucesso e foi convidada para participar de um processo seletivo, \nchegando em casa pediu uma pizza para comemorar com o filho")
-        return location = "../html.ganhou.html"
+        return location = "../html/ganhou.html"
     }
 }
