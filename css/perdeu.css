@@ -55,7 +55,7 @@ header{
 }
 
 .container {
-   display: flex;
+   position: relative;
    border: 1px solid rgb(102, 102, 102);
    color: rgb(255, 255, 255);
    width: 90%;

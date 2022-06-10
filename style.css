@@ -68,6 +68,7 @@ header{
 .texto1 {
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .frase1:hover, .frase2:hover, .frase3:hover, .frase4:hover{
