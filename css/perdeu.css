@@ -55,19 +55,19 @@ header{
 }
 
 .container {
-   position: relative;
-   border: 1px solid rgb(102, 102, 102);
-   color: rgb(255, 255, 255);
-   width: 90%;
-   height: 340px;
-   margin-top: 20px;
-   margin-left: 5%;
-   margin-right: 0;
-   margin-block-end: 30px;
-   border-radius: 20px;
-   box-shadow: 0 0 6px rgb(102, 102, 102),
-   0 0 12px rgb(255, 255, 255),
-   0 0 30px rgb(0, 0, 0);
+    position: relative;
+    border: 1px solid rgb(102, 102, 102);
+    color: rgb(255, 255, 255);
+    width: 90%;
+    height: 340px;
+    margin-top: 20px;
+    margin-left: 110px;
+    margin-right: 50px;
+    margin-block-end: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 6px rgb(102, 102, 102),
+    0 0 12px rgb(255, 255, 255),
+    0 0 30px rgb(0, 0, 0);
 }
 
 .container-voltar {
